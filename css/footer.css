@@ -1,0 +1,35 @@
+footer .redes-sociales{
+	background: #1e2b38;
+	padding:60px 0; 
+}
+
+footer .contenedor-redes{
+	display: flex;
+	justify-content: center;
+}
+
+footer .redes-sociales a{
+	color: #fff;
+	text-align: center;
+	width: 100px;
+	display:block;
+	padding: 15px 0;
+	border-radius: 3px;
+	font-size: 30px;
+	margin: 0 20px;
+}
+
+footer .redes-sociales .facebook:hover{background: #3b5998;}
+footer .redes-sociales .twitter:hover{background: #1da1f2;}
+footer .redes-sociales .youtube:hover{background: #ff0000;}
+footer .redes-sociales .instagram:hover{background: #c13584;}
+footer .redes-sociales .whats:hover{background: #25d366;}
+
+footer .derechos{
+	background: #1e2b38;
+	padding-bottom: 10px;
+	color: #fff;
+	text-align: center;
+	font-size: 19px;
+	font-family: "Regular-400";
+}

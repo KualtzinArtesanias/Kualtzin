@@ -1,0 +1,65 @@
+@import url("universal.css");
+@import url("menu_nav.css");
+@import url("footer.css");
+@import url("fuentes.css");
+
+body{
+	background: #fff;
+}
+
+ .main .ubicacion{
+ 	background: #fff;
+ 	padding: 30px 200px;
+ 	overflow: hidden;
+ }
+
+ .main .ubicacion .titulo{
+ 	text-align: center;
+ 	font-size: 40px;
+ 	line-height: 40px;
+ 	font-weight: 200px;
+ 	margin-bottom: 40px;
+ 	font-family: "Bold-700";
+ }
+
+.main .ubicacion .direccion{
+	float: left;
+	width: 50%;
+	text-align: left;
+	font-size: 20px;
+	font-family: "Light-300";
+}
+
+.main .ubicacion .horarios{
+	float: right;
+	width: 50%;
+	text-align: right;
+	overflow: hidden;
+}
+
+.main .ubicacion .horarios h4{
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-family: "Regular-400";
+}
+
+.main .ubicacion .horarios .entre-semana,
+.main .ubicacion .horarios .fin-semana{
+	width: 50%;
+	float: left;
+	text-align: center;
+	font-size: 20px;
+	font-family: "Light-300";
+}
+
+.main .mapa{
+	padding-top:20px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.main .mapa iframe {
+	width: 100%;
+	max-height:600px; 
+}

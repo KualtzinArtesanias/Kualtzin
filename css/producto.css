@@ -1,0 +1,82 @@
+@import url("universal.css");
+@import url("menu_nav.css");
+@import url("footer.css");
+@import url("fuentes.css");
+
+body{
+	background: #fff;
+	margin: 0px;
+}
+
+.main{
+	width: 80%;
+	margin: 10px auto;
+}
+
+.main .liga {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+
+.main .liga a{
+	text-decoration: none;
+	color: #000;
+	margin-bottom: 20px;
+	display: inline-block;
+	font-size: 20px;
+	font-family: "Regular-400";
+}
+
+.main .liga .contenedor .foto img{border-radius: 10px;}
+
+.main .liga .contenedor .lado{
+	margin: 0px auto;
+}
+
+.main .liga .contenedor .lado h1{
+	font-size: 40px;
+	margin-bottom: 20px;
+	font-family: "Bold-700"
+}
+
+.main .liga .contenedor .lado h4{
+	font-size: 20px;
+	margin-bottom: 10px;
+	font-family: "Light-300"
+}
+
+.main .liga .contenedor .lado h3{
+	font-size: 30px;
+	margin-bottom: 10px;
+	font-family: "Light-300"
+}
+
+.main .liga .contenedor .lado p{
+	font-size: 20px;
+	margin-bottom: 10px;
+	font-family: "Regular-400"
+}
+
+.main .liga .contenedor .lado .comprar .compra{
+	
+	padding: 0 20px;
+	height: 40px;
+	line-height: 40px;
+	border: none;
+	color: #fff;
+	background: #5E7DE3;
+	border-radius: 3px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	cursor: pointer;
+	transition: .3s ease all;
+	
+}
+
+.main .liga .contenedor .lado .comprar .compra:hover{
+	background: rgba(94,125,227, .9);
+}
+
+

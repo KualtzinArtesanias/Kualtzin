@@ -1,0 +1,335 @@
+@import url("universal.css");
+@import url("menu_nav.css");
+@import url("footer.css");
+@import url("fuentes.css");
+
+body{
+	background: #fff;
+}
+/* +++++++++++++++++++ENCABEZADO+++++++++++++++++++++++ */
+
+.main .encabezado {
+	background: url('../img/header.jpg');
+	background-repeat: no-repeat;
+	background-size:cover;	
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main .encabezado .texto{
+	border: 2px solid #fff;
+	border-radius:  3px;
+	/*display: inline-block;*/
+	text-align: center;
+	padding: 20px 60px;
+	margin: 138px 0px;
+	font-family: "Noto-italic";
+	color: #fff;
+	background: rgba(141, 141, 141, 0.51);
+
+}
+
+.main .encabezado .texto h1{font-size:  50px; text-shadow: 5px 5px 6px rgba(0,0,0,.3);}
+.main .encabezado .texto h3{font-size:  35px; text-shadow: 5px 5px 6px rgba(0,0,0,.3);}
+
+/* +++++++++++++++++++KUALTZIN+++++++++++++++++++++++ */
+
+.main .kualtzin{
+	background: #f2f2f2;
+	text-align: center;
+	padding: 30px 150px 10px 150px;
+	width: 100%;
+}
+
+.main .kualtzin .caja{
+	background: #fff;
+	padding: 20px;
+	border-radius: 7px;
+	box-shadow: 2px 3px 6px rgba(0,0,0,.5);
+}
+.main .kualtzin h2{
+	padding-bottom: 10px;
+	font-size: 35px;
+	text-shadow: 2px 0px 6px rgba(0,0,0,.3);
+	font-family: "Bold-700";
+}
+
+.main .kualtzin p{
+	font-size: 25px;
+	font-family: "Regular-400";
+}
+/* +++++++++++++++++++PRODUCTOS DESTACADOS+++++++++++++++++++++++ */
+.main .productos-destacados{
+	background: #f2f2f2;  /*Solo para identificar el contenedor*/
+	padding-top: 30px; 
+}
+.main .productos-destacados h3{
+	text-align: center;
+	padding-bottom: 40px;
+	font-size: 30px;
+	font-family: "Noto-italic";
+}
+
+.main .productos-destacados .contenedor-productos a{
+	text-decoration: none;
+}
+
+.main .productos-destacados .contenedor-productos,
+.main .productos-destacados .contenedor-productos .siete .ocho{
+	width: 100%;
+	display: flex;
+	flex-direction: row; 
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+
+.main .productos-destacados .contenedor-productos .siete .dos img{
+	width: 97%;
+}
+
+.main .productos-destacados .contenedor-productos .seis img,
+.main .productos-destacados .contenedor-productos .siete img,
+.main .productos-destacados .contenedor-productos .ocho img{
+	margin: 10px;
+	margin-bottom: 0px;
+	border-radius: 7px;
+	opacity: 0.8;
+}
+
+.main .productos-destacados .contenedor-productos img:hover{opacity: 1;}
+
+.main .productos-destacados .contenedor-productos .seis .producto .descripcion1,
+.main .productos-destacados .contenedor-productos .seis .producto .descripcion2,
+.main .productos-destacados .contenedor-productos .siete .producto .descripcion3,
+.main .productos-destacados .contenedor-productos .siete .producto .descripcion4,
+.main .productos-destacados .contenedor-productos .siete .producto .descripcion5{
+	text-align: center;
+	padding: 10px;
+	margin: 0 10px;
+	position: relative;
+	bottom: 10px;
+	background: #371777;
+	color: #fff;
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+	font-size: 20px;
+	font-family: "Regular-400";
+}
+
+/* +++++++++++++++++++PROMO++++++++++++++++++++++++++++++++++++++++ */
+
+.main .promo{
+	text-align: center;
+	background: url('../img/promo.jpg') rgba(0,0,0,0.9); 
+	background-color: rgb(90,90,90);
+	background-blend-mode: soft-light;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center 0;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Narrow-Regular";
+}
+
+
+.main .promo .parrafo{
+	color: #eff3f6;
+	text-shadow: 10px 10px 10px rgba(0,0,0,1)
+}
+
+.main .promo .parrafo h2{font-size: 45px;}
+.main .promo .parrafo h3{font-size: 35px; padding: 15px 0px;}
+.main .promo .parrafo h4{font-size: 25px;}
+
+/* +++++++++++++++++++PRODUCTOS RECOMENDADOS+++++++++++++++++++++++ */
+
+.main .productos-recomendados p {
+	font-family: "Noto-Bolditalic";
+	font-size: 20px;
+}
+
+.main .productos-recomendados p .enlace{
+	background: #1e2b38;
+	color: #fff;
+	font-size: 20px;
+	display: inline-block;
+	padding: 5px;
+	border-radius: 5px;
+	font-family: "Narrow-Regular";
+}
+
+.main .productos-recomendados p .enlace:hover{
+	box-shadow: 3px 3px 3px rgba(0,0,0,.5);
+	background: #00b3dc;
+}
+
+.main .productos-recomendados .recomendados{
+	background: #f2f2f2;
+	display: flex;
+	flex-direction: row; 
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	padding-bottom: 20px;
+}
+
+.main .productos-recomendados .recomendados .produc img{
+	margin-right: 5px;
+	background: #f2f2f2;
+}
+
+.main .productos-recomendados p,
+.main .productos-recomendados .enlace{
+	background: #f2f2f2;
+	text-align: center;
+	text-decoration: none;
+	padding: 20px 0px;
+	color: #000;
+}
+
+.main .productos-recomendados .recomendados a{
+	text-decoration: none;
+}
+
+.main .productos-recomendados .recomendados .produc .otro .descrip .nombre{
+	color: #000;
+	background: #fff;
+	padding: 10px 0;
+}
+
+.main .productos-recomendados .recomendados .produc .nuevo{
+	background: #00b3dc;
+	color: #fff;
+	text-align: center;
+	padding: 4px;
+	width: 30%;
+	position:absolute ;
+	bottom: 89%;
+	border-bottom-right-radius: 5px; 
+}
+
+.main .productos-recomendados .recomendados .produc{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 7px;
+	margin-bottom: 7px;
+	background: #fff;
+	padding: 10px; 
+	border-radius: 4px;
+	position: relative;
+}
+
+.main .productos-recomendados .recomendados .produc:hover { 
+	box-shadow: 3px 3px 6px rgba(0,0,0,.5);
+}
+
+.main .productos-recomendados .recomendados .produc img{ 
+	border-radius: 4px;
+	width: 100%;
+}
+.main .productos-recomendados .recomendados .produc a .infomodal{
+	display: none;
+}
+/* ***************** FOOTER ******************* */
+
+.modal{
+	background: rgba(0,0,0,.8);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: none;
+}
+
+.modal .todo{
+	background: #f8f8f8;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,.9);
+	border-radius: 4px;
+	margin: 150px auto;
+	padding: 20px;
+	width: 800px;
+}
+
+.modal .todo .pop{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.modal .todo a{
+	font-size: 25px;
+	line-height: 16px;
+	display: block;
+	text-align: right;
+	color: #000;
+	transition:  .3s ease all;
+}
+
+.modal .todo a:hover {
+	color: blue;
+}
+
+.modal .todo .pop img{
+	width: 320px;
+	border-radius: 4px;
+}
+
+.modal .todo .pop .infor{
+	margin: 0px auto;
+	text-align: left;
+}
+
+.modal .todo .pop .infor h1{
+	font-size: 30px;
+	margin-bottom: 20px;
+	font-family: "Bold-700"
+}
+
+.modal .todo .pop .infor h2{
+	font-size: 40px;
+	margin-bottom: 20px;
+	font-family: "Bold-700"
+}
+
+.modal .todo .pop .infor h4{
+	font-size: 20px;
+	margin-bottom: 10px;
+	font-family: "Light-300"
+}
+
+.modal .todo .pop .infor h3{
+	font-size: 30px;
+	margin-bottom: 10px;
+	font-family: "Light-300"
+}
+
+.modal .todo .pop .infor p{
+	font-size: 20px;
+	margin-bottom: 10px;
+	font-family: "Regular-400"
+}
+
+.modal .todo .pop .infor .compra{
+	padding: 0 20px;
+	height: 40px;
+	line-height: 40px;
+	border: none;
+	color: #fff;
+	background: #5E7DE3;
+	border-radius: 3px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	cursor: pointer;
+	transition: .3s ease all;
+}
+
+.modal .todo .pop .infor .compra:hover{
+	background: rgba(94,125,227, .9);
+}

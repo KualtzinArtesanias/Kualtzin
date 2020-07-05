@@ -1,0 +1,35 @@
+@import url("universal.css");
+@import url("menu_nav.css");
+@import url("footer.css");
+@import url("fuentes.css");
+
+body{
+	background: #fff;
+}
+/* +++++++++++++++++++MAIN+++++++++++++++++++++++ */
+.main {padding: 40px 150px;}
+
+
+.main .somos h2{
+	text-align: center;
+	font-size: 40px;
+	padding-bottom: 20px;
+	font-family: "Bold-700";
+}
+
+.main .descripcion{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Regular-400";
+}
+
+.main .descripcion p{
+	font-size: 20px;
+	padding-right: 40px;
+}
+
+.main .descripcion img{
+	width: 400px;
+	border-radius: 4px;
+}

@@ -1,0 +1,40 @@
+@font-face {
+	font-family: "Narrow-Bold";
+	src: url('../fonts/PTSansNarrow-Bold.ttf');
+}
+@font-face{
+	font-family: "Noto-italic";
+	src: url('../fonts/NotoSerif-Italic.ttf');
+}
+font-face{
+	font-family: "Noto-regular";
+	src: url('../fonts/NotoSerif-Regular.ttf');
+}
+@font-face{
+	font-family: "Noto-Bolditalic";
+	src: url('../fonts/NotoSerif-BoldItalic.ttf');
+}
+@font-face {
+	font-family: "Narrow-Regular";
+	src: url('../fonts/PTSansNarrow-Regular.ttf');
+}
+@font-face {
+	font-family: "Noto-Bold";
+	src: url('../fonts/NotoSerif-Bold.ttf');
+}
+@font-face {
+	font-family: "Light-300";
+	src: url('../fonts/Roboto-Light.ttf');
+}
+@font-face {
+	font-family: "Light-300-italic";
+	src: url('../fonts/Roboto-LightItalic.ttf');
+}
+@font-face {
+	font-family: "Regular-400";
+	src: url('../fonts/Roboto-Regular.ttf');
+}
+@font-face {
+	font-family: "Bold-700";
+	src: url('../fonts/Roboto-Bold.ttf');
+}
